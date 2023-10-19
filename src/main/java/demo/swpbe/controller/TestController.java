@@ -11,7 +11,7 @@ public class TestController {
     @GetMapping("/")
     public ResponseEntity get(){
         Response response = new Response();
-        response.setName("Gia Bao");
+        response.setName("SWP");
         return ResponseEntity.ok(response);
     }
 }
